@@ -1,0 +1,84 @@
+{
+  "name": "001 Runtime Status Dispatcher",
+  "description": "Dispatch transaction-items to queue in Orchestrator",
+  "main": "Dispatcher.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.2]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.5.0-preview]",
+    "UiPath.Testing.Activities": "[23.5.0-preview]",
+    "UiPath.UIAutomation.Activities": "[22.10.5]",
+    "UiPath.WebAPI.Activities": "[1.13.3]",
+    "Utility.Calendar": "[1.0.19]",
+    "Utility.DataTable": "[1.0.35]",
+    "Utility.Datawarehouse": "[1.0.24]",
+    "Utility.File": "[1.0.1]",
+    "Utility.Reporting": "[1.0.35]",
+    "Utility.Settings": "[1.0.10]",
+    "Utility.WorkQueues": "[1.0.35]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.2.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a6a1f7c6-e365-46fd-aef2-bb5636f0e098",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\When Getting Workbook Name.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4cc54487-022f-42ba-baed-443ffa136d04",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\When Getting Eier av Input Fil.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Dispatcher.xaml",
+      "uniqueId": "ab17062a-2dad-4e3a-8a7f-94e014410cb7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

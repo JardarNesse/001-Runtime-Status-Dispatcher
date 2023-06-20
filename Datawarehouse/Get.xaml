@@ -1,0 +1,111 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Get" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1509,1343" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:u="clr-namespace:Utility_Datawarehouse;assembly=Utility.Datawarehouse" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>Utility_Datawarehouse</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="126">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices.RuntimeInformation</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Utility WorkQueues</AssemblyReference>
+      <AssemblyReference>Utility.Datawarehouse</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Get" sap:VirtualizedContainerService.HintSize="450,1278" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment DisplayName="Connection to Datawarehouse" sap:VirtualizedContainerService.HintSize="388,75" sap2010:WorkflowViewState.IdRef="Comment_3" Text="Connection / connectionstring is stored in library" />
+    <u:DB_Connection ConnectionString="{x:Null}" DisplayName="DB Connection (DB_Connection)" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="DB_Connection_2" />
+    <ui:Comment DisplayName="Reader" sap:VirtualizedContainerService.HintSize="388,75" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Simple reader to query database. Provide a valid SQL and receive data in return." />
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" DataTable="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DisplayName="Run query" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+      <ui:ExecuteQuery.Sql>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">string.Empty</CSharpValue>
+        </InArgument>
+      </ui:ExecuteQuery.Sql>
+    </ui:ExecuteQuery>
+    <ui:Comment DisplayName="From Datawarehouse to Orchestrator" sap:VirtualizedContainerService.HintSize="388,343" sap2010:WorkflowViewState.IdRef="Comment_1" Text="DW to Orchestrator handles all there is when it comes to providing QueueItems to robot directly from Datawarehouse.&#xA;&#xA;Queue: &#xA;name of target queue&#xA;&#xA;ReferenceFields: &#xA;a combination for fields received in dataset seperated by |&#xA;&#xA;ReferenceDateTimePart: &#xA;typically DateTime.Now.ToString(&quot;dd.MM.yyyy&quot;) to avoid duplicates per day or any other to support your business rule&#xA;&#xA;JobGroupId:&#xA;Use this one when ordering report" />
+    <u:DW_to_Orchestrator JobGroupId="{x:Null}" Queue="{x:Null}" ReferenceDateTimePart="{x:Null}" ReferenceFields="{x:Null}" SQL="{x:Null}" DisplayName="DW to Orchestrator (DW_to_Orchestrator)" sap:VirtualizedContainerService.HintSize="388,294" sap2010:WorkflowViewState.IdRef="DW_to_Orchestrator_2" />
+  </Sequence>
+</Activity>
