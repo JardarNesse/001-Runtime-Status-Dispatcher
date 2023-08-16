@@ -1,5 +1,6 @@
 {
   "name": "001 Runtime Status Dispatcher",
+  "projectId": "fcfc0a58-9d2d-4777-8f51-103790fc6ff1",
   "description": "Dispatch transaction-items to queue in Orchestrator",
   "main": "Dispatcher.xaml",
   "dependencies": {
@@ -9,8 +10,8 @@
     "UiPath.Testing.Activities": "[23.5.0-preview]",
     "UiPath.UIAutomation.Activities": "[23.4.7]",
     "UiPath.WebAPI.Activities": "[1.16.2]",
-    "Utility.Calendar": "[1.0.19]",
-    "Utility.DataTable": "[1.0.35]",
+    "Utility.Calendar": "[1.0.21]",
+    "Utility.DataTable": "[1.0.36]",
     "Utility.Datawarehouse": "[1.0.24]",
     "Utility.File": "[1.0.1]",
     "Utility.Reporting": "[1.0.35]",
@@ -21,7 +22,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.4",
+  "projectVersion": "1.0.5",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
